@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp bill Generator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="billContent">
+            <div>
+                <label for="ItemName">Name</label>
+                <input type="text" placeholder="ItemName" id="ItemName">
+            </div>
+            <div>
+                <label for="ItemQuantity">Quantity</label>
+                <input type="number" placeholder="ItemQuantity" id="ItemQuantity">
+            </div>
+            <div>
+                <label for="ItemPrice">Price</label>
+                <input type="text" placeholder="ItemPrice" id="ItemPrice">
+            </div>
+            <button id="GenerateBtn">Generate Now</button>
+        </div>
+        <div id="billGenerator">
+            <div id="billContainer">
+                <div id="BillHeader">
+                   <h1 id="HotelName">Ambur Hot Dum Biryani South Indian</h1>
+                </div>
+                <div id="BillBody">
+                    <div id="BillPurches">
+
+                    </div>
+                    
+                </div>
+                <div id="BillFooter">
+                  <h6>Address:</h6><p>Hinjiwadi phase 1,near Dmart,pune.</p>
+                  <h6>Phone Number:</h6><p>9360764252</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
